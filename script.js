@@ -57,7 +57,7 @@ function getRecipeData() {
     method: "GET",
     headers: {
       "X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-      "X-RapidAPI-Key": "95bf4e37b4mshe8cb692a716b2e3p190df5jsnb5e4f313f0e0",
+      "X-RapidAPI-Key": "98350fefc1msheb31095817147dep1a5a29jsn6f063af7cf27"
     },
   };
 
