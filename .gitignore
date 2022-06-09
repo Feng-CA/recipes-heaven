@@ -1,2 +1,10 @@
 .vscode/*
 !.vscode/settings.json
+
+# api keys
+config.js
+
+# dependencies
+/node_modules
+
+

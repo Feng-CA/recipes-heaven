@@ -1,3 +1,7 @@
+// require('dotenv').config();
+
+// console.log(process.env);
+
 //I will be working on nutrition facts spoonacular
 const form = document.getElementById("recipe-search");
 const baseUrl =
@@ -53,11 +57,12 @@ let requestUrl = function () {
 };
 
 function getRecipeData() {
+  var apikey = config.API_KEY;
   const options = {
     method: "GET",
     headers: {
       "X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-      "X-RapidAPI-Key": "55b014b399msh167c3c730f66388p11fe0ejsn4b96d22e62bd"
+      "X-RapidAPI-Key": apikey
     },
   };
 
@@ -70,11 +75,13 @@ function getRecipeData() {
 
 //fetch nutition facts
 function getRecipeNutrition(id) {
+  var apikey = config.API_KEY;
+
   const options = {
     method: "GET",
     headers: {
       "X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-      "X-RapidAPI-Key": "55b014b399msh167c3c730f66388p11fe0ejsn4b96d22e62bd",
+      "X-RapidAPI-Key": apikey
     },
   };
   // let requestNutritionUrl = nutritionUrl + id+'/nutritionWidget.json';
