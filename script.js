@@ -57,7 +57,7 @@ function getRecipeData() {
     method: "GET",
     headers: {
       "X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-      "X-RapidAPI-Key": "98350fefc1msheb31095817147dep1a5a29jsn6f063af7cf27"
+      "X-RapidAPI-Key": "55b014b399msh167c3c730f66388p11fe0ejsn4b96d22e62bd"
     },
   };
 
@@ -74,7 +74,7 @@ function getRecipeNutrition(id) {
     method: "GET",
     headers: {
       "X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-      "X-RapidAPI-Key": "98350fefc1msheb31095817147dep1a5a29jsn6f063af7cf27",
+      "X-RapidAPI-Key": "55b014b399msh167c3c730f66388p11fe0ejsn4b96d22e62bd",
     },
   };
   // let requestNutritionUrl = nutritionUrl + id+'/nutritionWidget.json';
